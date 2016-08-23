@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "atcc",
+  "version": "0.0.1",
+  "description": "Light weight selenium client in Node.js",
+  "main": "lib/index.js",
+  "dependencies": {
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "standard": "^8.0.0-beta.5",
+    "standard-version": "^2.4.0",
+    "tap": "^6.3.2"
+  },
+  "scripts": {
+    "test": "standard && tap test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watilde/atcc.git"
+  },
+  "keywords": [
+    "Selenium"
+  ],
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watilde/atcc/issues"
+  },
+  "homepage": "https://github.com/watilde/atcc#readme"
+}
