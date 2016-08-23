@@ -1,6 +1,27 @@
 # Atcc
 Light weight selenium client in Node.js
 
+## Install
+via npm
+// Actually, this project isn't published yet
+```
+$ npm install atcc
+```
+
+## Usage
+```js
+var Atcc = require('atcc')
+var atcc = new Atcc()
+
+atcc.open({browserName: 'firefox'}, function () {
+  atcc.go('http://google.com',function () {
+    atcc.title(function (title) {
+      assert(title, 'Google') // Yay!
+    })
+  })
+})
+```
+
 ## API Docs
 
 ### THE ATCC CLASS
