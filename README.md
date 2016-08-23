@@ -9,6 +9,7 @@ $ npm install atcc
 ```
 
 ## Usage
+// Will be updated by async/await
 ```js
 var Atcc = require('atcc')
 var atcc = new Atcc()
